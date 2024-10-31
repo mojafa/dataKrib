@@ -179,7 +179,7 @@ def predict():
 
         # Plot components
         plot_components(forecast)
-        return {'forecast': insights}
+        return {'sales_forecast': insights}
 
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))

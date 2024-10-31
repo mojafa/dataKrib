@@ -112,7 +112,7 @@ Since we don't have actual sales data for the desired period, we'll generate syn
 
 ```json
 {
-  "forecast": [
+  "sales_forecast": [
     {
       "date": "2024-11-01",
       "predicted_sales": 21045.67,
