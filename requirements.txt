@@ -2,3 +2,7 @@ fastapi
 uvicorn[standard]
 prophet
 pandas
+scikit-learn
+matplotlib
+holidays
+numpy
