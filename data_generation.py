@@ -60,6 +60,21 @@ def generate_train_csv():
     train_df.to_csv('data/train.csv', index=False)
     print("train.csv generated successfully.")
 
+def generate_stores_csv():
+    # Generate store data
+    stores_data = [
+        {
+            'Store': 1,
+            'Type': 'A',
+            'Size': 151315
+        }
+    ]
+    
+    stores_df = pd.DataFrame(stores_data)
+    stores_df.to_csv('data/stores.csv', index=False)
+    print("stores.csv generated successfully.")
 # Generate the data
 generate_features_csv()
 generate_train_csv()
+generate_stores_csv()
+
